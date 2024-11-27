@@ -262,7 +262,7 @@
         "wire_width": 6
       },
       {
-        "bus_width": 12,
+        "bus_width": 1224,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -276,10 +276,27 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "1W",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 212, 255)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -293,10 +310,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
-        "bus_width": 12,
+        "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -310,10 +327,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
-        "bus_width": 12,
+        "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -327,10 +344,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
-        "bus_width": 12,
+        "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -344,10 +361,10 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
-        "bus_width": 12,
+        "bus_width": 24,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
@@ -361,7 +378,7 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
         "bus_width": 12,
@@ -378,6 +395,57 @@
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
+        "wire_width": 18
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SCL",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(162, 165, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SDA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 165, 21)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SW",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(160, 160, 160)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -389,11 +457,19 @@
       "+12V": "12v",
       "+3.3V": "3.3v",
       "+5V": "5v",
+      "/1W": "1W",
       "/AC_L_1": "Live",
       "/AC_L_2": "Live",
       "/AC_Live": "Live",
       "/AC_Neutral": "Neutral",
-      "GND": "GND"
+      "/SCL": "SCL",
+      "/SDA": "SDA",
+      "/SW": "SW",
+      "GND": "GND",
+      "Net-(A1-3V3-Pad1)": "3.3v",
+      "Net-(J11-Pad1)": "Live",
+      "Net-(J12-Pad3)": "Live",
+      "unconnected-(K2-Pad3)": "Live"
     },
     "netclass_patterns": [
       {
@@ -407,6 +483,22 @@
       {
         "netclass": "12v",
         "pattern": "12V"
+      },
+      {
+        "netclass": "SCL",
+        "pattern": "SCL"
+      },
+      {
+        "netclass": "SDA",
+        "pattern": "SDA"
+      },
+      {
+        "netclass": "1W",
+        "pattern": "1W"
+      },
+      {
+        "netclass": "SW",
+        "pattern": "SW"
       }
     ]
   },
@@ -527,6 +619,22 @@
     [
       "26ca1d49-831e-422d-83fd-544df0b37cb9",
       "Root"
+    ],
+    [
+      "547d1536-f2b5-47e6-a78d-159a617fd225",
+      "BME280"
+    ],
+    [
+      "dabe7842-edac-4175-8562-0124dd11fd51",
+      "OLED SSD1306"
+    ],
+    [
+      "5abc128f-cfd7-4cf0-940f-4be69802c26e",
+      "Keyboard"
+    ],
+    [
+      "be0eb721-b51c-4ab8-91ab-478ba50cf5bf",
+      "RTC DS3231"
     ]
   ],
   "text_variables": {}

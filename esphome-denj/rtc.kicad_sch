@@ -1,0 +1,104 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2d21b2d4-ad6b-4a8b-ba4f-051f68a47ee9")
+	(paper "A4")
+	(title_block
+		(title "SLA-BOX")
+		(date "2024-11-27")
+		(rev "B")
+		(company "avatarsd LLC")
+		(comment 3 "day 1008")
+		(comment 4 "by S.D.")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 151.13 80.01) (xy 133.35 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18ac67c1-53bc-4034-a9b6-b314c86c0dfb")
+	)
+	(wire
+		(pts
+			(xy 127 93.98) (xy 151.13 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aef44f9-ef09-449e-882a-4d187ceb3f35")
+	)
+	(wire
+		(pts
+			(xy 127 88.9) (xy 151.13 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8bdd9bd-cfdc-4cd4-a3e6-f4b1450e2240")
+	)
+	(wire
+		(pts
+			(xy 151.13 115.57) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0d07b94-e3d8-4e63-8dab-0998e1d04bd2")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 151.13 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "119a2ec0-91f8-48c3-86df-ac30eb8746b4")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 151.13 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d68c83ad-2e67-41c3-83c2-bb5b261a22e1")
+	)
+	(hierarchical_label "VCC"
+		(shape input)
+		(at 151.13 80.01 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e3545f06-f5ce-41dc-b4aa-27032f44dcce")
+	)
+	(hierarchical_label "GND"
+		(shape input)
+		(at 151.13 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e605d013-3f66-46d8-b6a8-1ee7ba5eefae")
+	)
+)
